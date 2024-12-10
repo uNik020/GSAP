@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+    overflow-x: hidden;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://img.freepik.com/free-photo/fantasy-style-galaxy-background_23-2151114325.jpg?t=st=1733230338~exp=1733233938~hmac=6fbaaa5d3ef61c8a2ef36fed1b75d951bc12e8e0860deb234a576575a658d843&w=1380);
+  background-size: cover;
+  background-position: center;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    color: #fff;
+}
+#nav h2{
+    font-size: 30px;
+}
+#nav i{
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+}
+#full{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    background-color: #ffffff23;
+    top: 0;
+    right: -40%;
+    backdrop-filter: blur(30px);
+    padding: 150px 60px;
+}
+
+#full h4{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+#full i{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+}
